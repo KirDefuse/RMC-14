@@ -14,7 +14,7 @@ RELEASE_DIR = "release"
 
 #
 # CONFIGURATION PARAMETERS
-# Forks should change these to publish to their own infrastructure.
+# Forks should change these to publish to their own infrastructure. Проста поставил чтобы версия обновилась
 #
 ROBUST_CDN_URL = "http://91.214.68.24:27690/"
 
