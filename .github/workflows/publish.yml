@@ -51,6 +51,7 @@ jobs:
       env:
         PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
+        FORK_ID: ${{ vars.FORK_ID }}
 
     - name: Publish changelog (Discord)
       continue-on-error: true
